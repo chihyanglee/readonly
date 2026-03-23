@@ -1,8 +1,8 @@
 ---
-title: "Multiple Github Account Ssh Config"
+title: "Multiple Github Account SSH Config"
 date: 2026-03-24T00:13:36+08:00
 draft: false
-tags: ["git", "ssh", "github"]
+tags: ["git", "SSH", "github"]
 categories: ["dev"]
 series: []
 description: "Memo of how to setup multiple github account ssh config"
