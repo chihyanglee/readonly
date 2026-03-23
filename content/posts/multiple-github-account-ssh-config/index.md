@@ -1,7 +1,7 @@
 ---
 title: "Multiple Github Account Ssh Config"
 date: 2026-03-24T00:13:36+08:00
-draft: true
+draft: false
 tags: ["git", "ssh", "github"]
 categories: ["dev"]
 series: []
