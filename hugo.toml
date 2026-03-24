@@ -1,51 +1,62 @@
-baseURL       = "https://readonly.chihyanglee.cc/"
-locale        = "en-us"
-title         = "Readonly"
-theme         = "PaperMod"
-paginate      = 10
+baseURL = "https://readonly.chihyanglee.cc/"
+locale = "en-us"
+title = "Readonly"
+theme = "PaperMod"
+paginate = 10
 enableRobotsTXT = true
-buildDrafts   = false
+buildDrafts = false
 
 [params]
-  env                  = "production"
-  defaultTheme         = "auto"  # light/dark/auto
-  ShowReadingTime      = true
-  ShowShareButtons     = false
-  ShowPostNavLinks     = true
-  ShowBreadCrumbs      = true
-  ShowCodeCopyButtons  = true
-  ShowToc              = true
-  TocOpen              = false
-  comments             = false
+env = "production"
+defaultTheme = "auto"      # light/dark/auto
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+comments = false
 
-  [params.homeInfoParams]
-    Title   = "Hi, I'm Simon Lee"
-    Content = "Former SWE and now a product manager but still like coding, system design, and whatever I'm tinkering with."
+[params.homeInfoParams]
+Title = "Notes on Building and Living"
+Content = "Former SWE and now a product manager but still like coding, system design, and whatever I'm tinkering with."
 
-  [[params.socialIcons]]
-    name = "github"
-    url  = "https://github.com/chihyanglee"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/chihyanglee"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://www.facebook.com/chihyangleee"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/chihyanglee/"
+
+[[params.socialIcons]]
+name = "website"
+url = "https://www.chihyanglee.cc"
 
 [markup]
-  [markup.highlight]
-    style       = "dracula"  # or monokai, github-dark, catppuccin-mocha
-    lineNos     = true
-    codeFences  = true
-    guessSyntax = true
-    noClasses   = true
+[markup.highlight]
+style = "dracula"  # or monokai, github-dark, catppuccin-mocha
+lineNos = true
+codeFences = true
+guessSyntax = true
+noClasses = true
 
-  [markup.goldmark.renderer]
-    unsafe = true  # allows raw HTML in markdown (useful for embeds)
+[markup.goldmark.renderer]
+unsafe = true # allows raw HTML in markdown (useful for embeds)
 
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel   = 4
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]  # JSON enables search
+home = ["HTML", "RSS", "JSON"] # JSON enables search
 
 [taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"   # group multi-part articles
-
+tag = "tags"
+category = "categories"
+series = "series"       # group multi-part articles
