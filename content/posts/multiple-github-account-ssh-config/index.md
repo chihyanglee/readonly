@@ -99,14 +99,14 @@ The core of the whole setup. Edit `~/.ssh/config`:
 Host gh-personal # This is the alias for personal account's github domain
   HostName github.com
   User git # Github use git as user to authenticate into github using ssh (git@domain.com)
-  IdentiyFile ~/.ssh/id_ed25519_personal
+  IdentityFile ~/.ssh/id_ed25519_personal
   IdentitiesOnly yes
 
 # Work
 Host gh-work # This is the alias for work account's github domain
   HostName github.com
   User git
-  IdentiyFile ~/.ssh/id_ed25519_work
+  IdentityFile ~/.ssh/id_ed25519_work
   IdentitiesOnly yes
 ```
 
