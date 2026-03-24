@@ -2,6 +2,8 @@
 
 A personal tech blog built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
+Live site: [readonly.chihyanglee.cc](https://readonly.chihyanglee.cc)
+
 ## Prerequisites
 
 Tools are managed via [mise](https://mise.jdx.dev/). Install dependencies with:
